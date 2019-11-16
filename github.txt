@@ -1,0 +1,42 @@
+
+------How to use GitHUb-----
+
+==============================
+
+
+$ git init     => Initializing the git repository
+
+
+$ git config --global user.name 'vgunaseelan'   => Username
+
+
+$ git config --global user.email 'vgunaseelan97@gmail.com' => Email
+
+
+git add . => adds all the file (also use: git add index.html, git add *.html )
+
+
+$ git status => returns the recent actions
+
+
+$ git rm --cached ajaxfile.txt => removes the file 'ajaxfile.txt'
+
+
+$ git status  => returns the recent actions
+
+
+$ git add ajaxfile.txt => adding ajaxfile.txt to the folder
+
+$ git commit -m 'updated' => commits all the changes made
+
+-- Open Github.com and create a repository. After done, you will see a couple of commands. Just use the last two commands (copy and paste it in the cmd terminal)--
+
+$ git remote add origin https://github.com/VGunaseelan/demo.git => First commands generated
+
+--At this stage, you will get a popup to enter your github credentials-
+
+$ git push -u origin master => -Second commands generated
+
+
+
+
